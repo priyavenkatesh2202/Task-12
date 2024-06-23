@@ -11,11 +11,11 @@ public class EmployeeTreeMap
 		        TreeMap<Integer, String> employeeMap = new TreeMap<>(); 	// TreeMap to store employee IDs and names
 
 		       
-		        employeeMap.put(101, "Charlie"); 
-		        employeeMap.put(102, "Eve");    //  employee IDs and names to the TreeMap
-		        employeeMap.put(103, "Alice"); 
-		        employeeMap.put(104, "Diana"); 
-		        employeeMap.put(105, "Bob");
+		        employeeMap.put(101, "Zoya"); 
+		        employeeMap.put(102, "Nittu");    //  employee IDs and names to the TreeMap
+		        employeeMap.put(103, "Shiny"); 
+		        employeeMap.put(104, "Lekha"); 
+		        employeeMap.put(105, "Charlie");
 
 		        
 		        TreeSet<String> sortedNames = new TreeSet<>(employeeMap.values());  //TreeSet to store the names in alphabetical order
